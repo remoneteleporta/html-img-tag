@@ -1,0 +1,19 @@
+img{
+    border: 4px solid blue;
+    height: 15em;
+    width: 100%;
+}
+
+@media(min-width: 350px){
+
+    img{
+      height: 30em;  
+    }
+}
+
+@media(min-width: 500px){
+
+    img{
+      height: 50em;  
+    }
+}
